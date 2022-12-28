@@ -1,0 +1,1 @@
+On trouvera ici tout un ensemble de bout de code pouvant servir de maniére assez universelle 
