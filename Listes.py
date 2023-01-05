@@ -32,8 +32,7 @@ print(l)
 'solution1'
 str = "Ceci n'est pas du code"
 print(str.split())
-'''donnera ['Ceci', "n'est", 'pas', 'du', 'code']
-'''
+'''donnera ['Ceci', "n'est", 'pas', 'du', 'code']'''
 
 'Solution2'
 str = "ça non plus"
