@@ -1,0 +1,6 @@
+@LocalToAzur_HostAddress = http://localhost:5137
+
+GET {{LocalToAzur_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

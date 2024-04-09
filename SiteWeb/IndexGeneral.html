@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--Penser à enlever les majuscules dans les adresses web (snka_case)-->
+<!--Penser à enlever les espace das les titres-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - David Chardon - Liminal Frequencies</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        .logo-row {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .logo-row:first-child {
+            margin-bottom: 50px;
+        }
+        .logo {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        .logo-top {
+            height: 240px; /* Hauteur spécifique pour le logo du haut */
+            width: auto
+        }
+        .logo img {
+            width: 100%;
+            height: 100%;
+        }
+        .logo:hover .logo-text {
+            opacity: 1;
+        }
+        .logo-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255,255,255,0.7);
+            color: black;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        .logo-text a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container">
+        <div class="logo-row">
+            <div class="logo logo-top"> 
+                <a href="page1.html"><img src="Resources Img/Général/DIS1.png"></a>
+                <div class="logo-text"><a href="IntroTatouage.html">Lorem ipsum dolor sit amet</a></div>
+            </div>
+        </div>
+        <div class="logo-row">
+            <div class="logo">
+                <a href="page2.html"><img src="Resources Img/Général/DIS2.png"></a>
+                <div class="logo-text"><a href="page2.html">Lorem ipsum dolor sit amet</a></div>
+            </div>
+            <div class="logo">
+                <a href="page3.html"><img src="Resources Img/Général/DIS3.png"></a>
+                <div class="logo-text"><a href="page3.html">Lorem ipsum dolor sit amet</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
